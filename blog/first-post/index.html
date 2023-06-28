@@ -1,44 +1,160 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../static/style.css">
-<title>Hello Website — PORTFOLIO</title>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<title>portfolio_quimoriz</title>
+</head>
 <body>
-  <header>
-    <h1>PORTFOLIO</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../../">Welcome</a></li>
-        
-          <li class="active"><a href="../">Blog</a></li>
-        
-          <li><a href="../../projects/">Projects</a></li>
-        
-          <li><a href="../../about/">About</a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
-  
-  <div class="blog-post">
-  
-    <h2>Hello Website</h2>
-  
-  <p class="meta">
-    written by
-    
-      Ekaterina Tarkhanova
-    
-    on 2023-06-15
-  </p>
-  <p>This is an example blog post.  Not much here but that's not the point :)</p>
 
-  </div>
+	<!-- Navigation -->
+	<nav class="site-navigation">
+		<div class="site-navigation-inner site-container">
+			<img src="./images/лого.png" alt="site logo" width="34" height="40">
+			<div class="main-navigation">
+				<ul class="main-navigation__ul">
+					<li><a href="#">Homepage</a></li>
+					<li><a href="#">Page 1</a></li>
+					<li><a href="#">Page 2</a></li>
+					<li><a href="#">Page 3</a></li>
+					<li><a href="#">Page 4</a></li>
+				</ul>
+			</div>
+			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
+
+		</div>
+	</nav>
+	<!-- Navigation end -->
+
+	<!-- Top banner -->
+	<section class="fh5co-top-banner">
+		<div class="top-banner__inner site-container">
+			<div class="top-banner__image">
+				<img src="./images/ава1.jpg" alt="author image" width="480" height="600">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<span class="brand-span">Hello! I'm</span>
+					<h2 class="top-banner__h2">Ekaterina</h2>
+					<h2 class="top-banner__h2">   Tarkhanova</h2>
+				</div>
+				<div class="top-banner__text-down">
+
+					<span class="brand-span">Student of Herzen University</span>
+				</div>
+				<p>Sorry I'm late, but superheroes usually show up at the last moment!</p>
+
+			</div>
+		</div>
+	</section>
+	<!-- Top banner end -->
+
+	<!-- About me -->
+	<section class="fh5co-about-me">
+		<div class="about-me-inner site-container">
+			<article class="portfolio-wrapper">
+				<div class="portfolio__img">
+					<img src="./images/ава2.jpg" class="about-me__profile" alt="about me profile picture" width="100" height="370">
+				</div>
+				<div class="portfolio__bottom">
+					<div class="portfolio__name">
+						<span>D</span>
+						<h2 class="universal-h2">irection</h2>
+					</div>
+					<p>Computer science and computer engineering. Software development.</p>
+				</div>
+			</article>
+			<div class="about-me__text">
+				<div class="about-me-slider">
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">About me</h2>
+						<p><span>D</span> uring my school years, I was interested in robotics and mobile application development. I tried my hand at CAD development when I entered the Moscow Polytechnic University, but now I am studying at the Herzen University in the direction of Computer Science and Computer Engineering. At the moment, I am attracted to web development, in which I intend to develop in the future. </p>
+
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">About me 2.0</h2>
+						<p><span>I</span> n my free time I am fond of photography, guitar playing and equestrian sports. I have a good command of graphic editors and 3D modeling programs (such as Inventor, Blender, Sculptris, Krita and many others). I like to watch and listen to podcasts on a variety of topics, in the future I would like to try myself in this.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-me-bckg"></div>
+	</section>
+	<!-- About me end -->
+
+	<!-- Books and CD -->
+	<section class="fh5co-books">
+		<div class="site-container">
+			<h2 class="universal-h2 universal-h2-bckg">Disciplines</h2>
+			<div class="books">
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/ткм.jpg" alt="single book and cd" width="250" height="250>
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+
+					</a>
 
 
-  </div>
-  <footer>
-    &copy; Copyright 2023 by Ekaterina Tarkhanova.
-  </footer>
+
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/ад.jpg" alt="single book and cd" width="250" height="250>
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+
+					</a>
+
+
+
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/кп.jpg" alt="single book and cd" width="250" height="250>
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+
+					</a>
+
+
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/ос.jpg" alt="single book and cd" width="250" height="250>
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+
+					</a>
+
+
+				</div>
+			</div>
+			<div class="books-brand-button">
+				<a href="#" class="brand-button">View more</a>
+			</div>
+		</div>
+	</section>
+	<!-- Books and CD end -->
+
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
+</html>
